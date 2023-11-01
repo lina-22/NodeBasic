@@ -2,9 +2,9 @@ const getName = () => {
   return "Lina haque";
 };
 
-exports.getAge = () => {
-  return "25";
-};
+// exports.getAge = () => {
+//   return "25";
+// };
 const cgpa = 3.93;
 
 // exports.getName = getName;
@@ -15,6 +15,6 @@ const cgpa = 3.93;
 
 module.exports = {
   getName,
-  getAge,
+  // getAge,
   cgpa,
 };
